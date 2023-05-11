@@ -32,6 +32,7 @@
     <modules>
         <module>singleton</module>
         <module>factory</module>
+        <module>abstract-factory</module>
     </modules>
 
     <dependencies>
