@@ -34,6 +34,8 @@
         <module>factory</module>
         <module>abstract-factory</module>
         <module>builder</module>
+        <module>adapter</module>
+        <module>bridge</module>
     </modules>
 
     <dependencies>
