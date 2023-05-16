@@ -1,10 +1,6 @@
 package com.neatcode.designpattern.bridge;
 
-import com.neatcode.designpattern.bridge.adapters.Blue;
-import com.neatcode.designpattern.bridge.adapters.Circle;
-import com.neatcode.designpattern.bridge.adapters.Square;
-import com.neatcode.designpattern.bridge.adapters.Green;
-import com.neatcode.designpattern.bridge.adapters.Red;
+import com.neatcode.designpattern.bridge.adapters.*;
 import com.neatcode.designpattern.bridge.ports.Color;
 import com.neatcode.designpattern.bridge.ports.Shape;
 
@@ -20,7 +16,7 @@ public class Application {
         Shape square = new Square(green);
         square.draw();
 
-        Shape blueSquare = new Square(blue);
-        blueSquare.draw();
+        Shape triangle = new Triangle(blue);
+        triangle.draw();
     }
 }
